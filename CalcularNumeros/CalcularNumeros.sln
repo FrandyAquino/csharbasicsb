@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularNumeros", "Calcular
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecioProducto", "..\PrecioProducto\PrecioProducto.csproj", "{B5C3D1F2-D1FE-46DD-8263-D8F2FBA78E07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularPromedios", "..\CalcularPromedios\CalcularPromedios.csproj", "{BA897055-9F90-48E6-9500-77E74F596659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B5C3D1F2-D1FE-46DD-8263-D8F2FBA78E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C3D1F2-D1FE-46DD-8263-D8F2FBA78E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C3D1F2-D1FE-46DD-8263-D8F2FBA78E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA897055-9F90-48E6-9500-77E74F596659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA897055-9F90-48E6-9500-77E74F596659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA897055-9F90-48E6-9500-77E74F596659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA897055-9F90-48E6-9500-77E74F596659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
