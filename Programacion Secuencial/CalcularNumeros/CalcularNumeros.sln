@@ -27,6 +27,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContarTriangulos", "..\..\B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumarUltimosCinco", "..\..\BuclesFor\SumarUltimosCinco\SumarUltimosCinco.csproj", "{4615D28F-A7F7-483C-843B-AD0577926B26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuclesWhile", "BuclesWhile", "{0E56CE67-7228-4EE2-B78F-AFDB1BF635B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularSumaYPromedio", "..\..\BuclesWhile\CalcularSumaYPromedio\CalcularSumaYPromedio.csproj", "{63CA5B45-7035-4E21-9909-A2EE02469ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContarPiezasAptas", "..\..\BuclesWhile\ContarPiezasAptas\ContarPiezasAptas.csproj", "{7C0DA45B-E834-47FF-B0D1-CA524794C877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +75,14 @@ Global
 		{4615D28F-A7F7-483C-843B-AD0577926B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4615D28F-A7F7-483C-843B-AD0577926B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4615D28F-A7F7-483C-843B-AD0577926B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CA5B45-7035-4E21-9909-A2EE02469ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CA5B45-7035-4E21-9909-A2EE02469ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CA5B45-7035-4E21-9909-A2EE02469ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CA5B45-7035-4E21-9909-A2EE02469ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0DA45B-E834-47FF-B0D1-CA524794C877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0DA45B-E834-47FF-B0D1-CA524794C877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0DA45B-E834-47FF-B0D1-CA524794C877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0DA45B-E834-47FF-B0D1-CA524794C877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +97,8 @@ Global
 		{40855005-1788-4250-976D-161068A9087F} = {294348AF-33E6-44A1-AE1B-ECAE4D6B71FB}
 		{C13F2314-BAE3-4F3D-9842-95FF4B80F71B} = {294348AF-33E6-44A1-AE1B-ECAE4D6B71FB}
 		{4615D28F-A7F7-483C-843B-AD0577926B26} = {294348AF-33E6-44A1-AE1B-ECAE4D6B71FB}
+		{63CA5B45-7035-4E21-9909-A2EE02469ECB} = {0E56CE67-7228-4EE2-B78F-AFDB1BF635B2}
+		{7C0DA45B-E834-47FF-B0D1-CA524794C877} = {0E56CE67-7228-4EE2-B78F-AFDB1BF635B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F371185F-165B-4E45-9759-393413A861D6}
