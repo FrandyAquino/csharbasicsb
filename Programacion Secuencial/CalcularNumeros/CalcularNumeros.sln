@@ -55,13 +55,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirarDado", "..\..\Arreglos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncuestaEstudiantil", "..\..\Arreglos\EncuestaEstudiantil\EncuestaEstudiantil.csproj", "{0CB943EB-E821-4344-90A0-A8FD00803365}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{0F4782DB-0964-411E-A151-D81FFD4C9DD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{0F4782DB-0964-411E-A151-D81FFD4C9DD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casos de Estudio", "Casos de Estudio", "{F77A6DAC-0ED3-484D-B293-D0CDCD622D94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasoDeEstudio1_Carta", "..\..\Casos de Estudio\Caso de Estudio 1 - Carta\CasoDeEstudio1_Carta\CasoDeEstudio1_Carta.csproj", "{44B7B227-B211-43F4-BBC0-6B3D1F02E7F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasoDeEstudio2_LibroCalificaciones", "..\..\Casos de Estudio\Caso de Estudio 2 - LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones.csproj", "{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array1", "..\..\Arrays\Array1\Array1.csproj", "{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2", "..\..\Arrays\Array2\Array2.csproj", "{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array3", "..\..\Arrays\Array3\Array3.csproj", "{B8249E3C-E689-490F-B75D-0AE15704F45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +163,18 @@ Global
 		{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +202,9 @@ Global
 		{0CB943EB-E821-4344-90A0-A8FD00803365} = {E5AD9122-6845-4955-B94D-0E6C34789FE6}
 		{44B7B227-B211-43F4-BBC0-6B3D1F02E7F2} = {F77A6DAC-0ED3-484D-B293-D0CDCD622D94}
 		{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298} = {F77A6DAC-0ED3-484D-B293-D0CDCD622D94}
+		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
+		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
+		{B8249E3C-E689-490F-B75D-0AE15704F45A} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F371185F-165B-4E45-9759-393413A861D6}
