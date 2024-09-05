@@ -41,33 +41,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseAlturaArea", "..\..\Sue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arreglos", "Arreglos", "{E5AD9122-6845-4955-B94D-0E6C34789FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InicArreglo", "..\..\Arreglos\InicArreglo\InicArreglo.csproj", "{F7474289-8689-4F90-B0DA-3A07D9D63CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InicArreglo", "..\..\Arreglos\InicArreglo\InicArreglo.csproj", "{F7474289-8689-4F90-B0DA-3A07D9D63CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InicArreglo2", "..\..\Arreglos\InicArreglo2\InicArreglo2.csproj", "{D1F95323-3C4E-4C3E-91DE-7D8BA81DD9DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InicArreglo2", "..\..\Arreglos\InicArreglo2\InicArreglo2.csproj", "{D1F95323-3C4E-4C3E-91DE-7D8BA81DD9DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InicArreglo3", "..\..\Arreglos\InicArreglo3\InicArreglo3.csproj", "{17BE192F-3EF2-426B-B6E9-196753A16EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InicArreglo3", "..\..\Arreglos\InicArreglo3\InicArreglo3.csproj", "{17BE192F-3EF2-426B-B6E9-196753A16EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaArreglo", "..\..\Arreglos\SumaArreglo\SumaArreglo.csproj", "{DC681DCA-EF58-44BE-8DDC-47630B423D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumaArreglo", "..\..\Arreglos\SumaArreglo\SumaArreglo.csproj", "{DC681DCA-EF58-44BE-8DDC-47630B423D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoBarras", "..\..\Arreglos\GraficoBarras\GraficoBarras.csproj", "{6D2B188C-1544-42AD-AC32-865E4FAA0615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraficoBarras", "..\..\Arreglos\GraficoBarras\GraficoBarras.csproj", "{6D2B188C-1544-42AD-AC32-865E4FAA0615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirarDado", "..\..\Arreglos\TirarDado\TirarDado.csproj", "{2A473225-A155-4BAE-9FB3-1C730C5451ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TirarDado", "..\..\Arreglos\TirarDado\TirarDado.csproj", "{2A473225-A155-4BAE-9FB3-1C730C5451ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncuestaEstudiantil", "..\..\Arreglos\EncuestaEstudiantil\EncuestaEstudiantil.csproj", "{0CB943EB-E821-4344-90A0-A8FD00803365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncuestaEstudiantil", "..\..\Arreglos\EncuestaEstudiantil\EncuestaEstudiantil.csproj", "{0CB943EB-E821-4344-90A0-A8FD00803365}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{0F4782DB-0964-411E-A151-D81FFD4C9DD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Casos de Estudio", "Casos de Estudio", "{F77A6DAC-0ED3-484D-B293-D0CDCD622D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasoDeEstudio1_Carta", "..\..\Casos de Estudio\Caso de Estudio 1 - Carta\CasoDeEstudio1_Carta\CasoDeEstudio1_Carta.csproj", "{44B7B227-B211-43F4-BBC0-6B3D1F02E7F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasoDeEstudio1_Carta", "..\..\Casos de Estudio\Caso de Estudio 1 - Carta\CasoDeEstudio1_Carta\CasoDeEstudio1_Carta.csproj", "{44B7B227-B211-43F4-BBC0-6B3D1F02E7F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasoDeEstudio2_LibroCalificaciones", "..\..\Casos de Estudio\Caso de Estudio 2 - LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones.csproj", "{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasoDeEstudio2_LibroCalificaciones", "..\..\Casos de Estudio\Caso de Estudio 2 - LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones\CasoDeEstudio2_LibroCalificaciones.csproj", "{BCC321E6-5F0B-4F85-B6D4-A5D1A2A59298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array1", "..\..\Arrays\Array1\Array1.csproj", "{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array1", "..\..\Arrays\Array1\Array1.csproj", "{61BABD2A-C560-4E20-A4B9-0FECC2959FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2", "..\..\Arrays\Array2\Array2.csproj", "{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array2", "..\..\Arrays\Array2\Array2.csproj", "{9A128EDF-A22D-451D-A6CE-229BB6E1BE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array3", "..\..\Arrays\Array3\Array3.csproj", "{B8249E3C-E689-490F-B75D-0AE15704F45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array3", "..\..\Arrays\Array3\Array3.csproj", "{B8249E3C-E689-490F-B75D-0AE15704F45A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clases", "Clases", "{2D10A85D-FC70-4C31-9A95-435AF002E65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases", "..\..\Clases\Clases\Clases.csproj", "{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +179,10 @@ Global
 		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8249E3C-E689-490F-B75D-0AE15704F45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,6 +213,7 @@ Global
 		{61BABD2A-C560-4E20-A4B9-0FECC2959FD9} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
 		{9A128EDF-A22D-451D-A6CE-229BB6E1BE89} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
 		{B8249E3C-E689-490F-B75D-0AE15704F45A} = {0F4782DB-0964-411E-A151-D81FFD4C9DD2}
+		{AAECCB44-C2BE-4A6E-BEE2-3C8D302EC2A2} = {2D10A85D-FC70-4C31-9A95-435AF002E65C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F371185F-165B-4E45-9759-393413A861D6}
