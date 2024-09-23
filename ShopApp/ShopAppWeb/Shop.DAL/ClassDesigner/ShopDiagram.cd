@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shop.DAL.Core.BaseEntity">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAEAAAAkAAAACAAAAQAAgAAAAAAAAA=</HashCode>
+      <FileName>Core\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.DAL.Core.ContactInfo">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgAAAAAAIIAAgAAAAAAIAAAACAAACIAAAAAA=</HashCode>
+      <FileName>Core\ContactInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.DAL.Entities.Categories">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.DAL.Entities.Customers">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Customers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.DAL.Entities.Products">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAoAAA=</HashCode>
+      <FileName>Entities\Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.DAL.Entities.Suppliers">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Suppliers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
