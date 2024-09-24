@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Shop.DAL.Models.Products.ProductsModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.productid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creation_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creation_user)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.supplierid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discontinued)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.productid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creation_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creation_user)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.supplierid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoryid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discontinued)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.productid  }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.productid }) |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -14,6 +14,5 @@ namespace Shop.DAL.Core
         public string? Country { get; set; }
         public string? Phone { get; set; }
         public string? Fax { get; set; }
-
     }
 }

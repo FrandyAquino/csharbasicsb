@@ -6,7 +6,7 @@ namespace Shop.DAL.Models.Products
     public class ProductsUpdateModel : ProductsBaseModel
     {
         public int productid { get; set; }
-        public DateTime ModifyDate { get; set; }
-        public int ModifyUser { get; set; }
+        public DateTime modify_date { get; set; }
+        public int modify_user { get; set; }
     }
 }

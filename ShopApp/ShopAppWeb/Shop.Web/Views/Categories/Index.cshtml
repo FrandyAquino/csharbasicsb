@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Shop.DAL.Models.Categories.CategoriesModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Categories List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creation_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creation_user)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.categoryid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creation_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creation_user)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoryname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.categoryid }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.categoryid }) |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

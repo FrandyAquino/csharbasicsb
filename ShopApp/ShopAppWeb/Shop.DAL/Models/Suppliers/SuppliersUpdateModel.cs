@@ -7,7 +7,7 @@ namespace Shop.DAL.Models.Suppliers
     public class SuppliersUpdateModel : SuppliersBaseModel
     {
         public int supplierid { get; set; }
-        public DateTime ModifyDate { get; set; }
-        public int ModifyUser { get; set; }
+        public DateTime modify_date { get; set; }
+        public int modify_user { get; set; }
     }
 }

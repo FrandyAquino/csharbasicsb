@@ -6,7 +6,7 @@ namespace Shop.DAL.Models.Categories
     public class CategoriesUpdateModel : CategoriesBaseModel
     {
         public int categoryid { get; set; }
-        public DateTime ModifyDate { get; set; }
-        public int ModifyUser { get; set; }
+        public DateTime modify_date { get; set; }
+        public int modify_user { get; set; }
     }
 }

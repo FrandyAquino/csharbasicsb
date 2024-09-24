@@ -6,7 +6,7 @@ namespace Shop.DAL.Models.Customers
 {
     public class CustomersAddModel : CustomersBaseModel
     {
-        public DateTime CreationDate { get; set; }
-        public int CreationUser { get; set; }
+        public DateTime creation_date { get; set; }
+        public int creation_user { get; set; }
     }
 }
